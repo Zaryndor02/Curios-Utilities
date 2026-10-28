@@ -1,0 +1,14 @@
+{
+  "entities": [
+    "minecraft:player"
+  ],
+  "slots": [
+    "natures_compass"
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "naturescompass"
+    }
+  ]
+}

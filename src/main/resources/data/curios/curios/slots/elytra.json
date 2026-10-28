@@ -1,0 +1,8 @@
+{
+  "order": 226,
+  "size": 1,
+  "icon": "curioutilities:slot/elytra",
+  "validators": [
+    "curios:tag"
+  ]
+}

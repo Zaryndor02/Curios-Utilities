@@ -1,0 +1,19 @@
+{
+  "entities": [
+    "minecraft:player"
+  ],
+  "slots": [
+    "aether_gloves",
+    "aether_ring",
+    "aether_pendant",
+    "aether_cape",
+    "aether_shield",
+    "aether_accessory"
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aether"
+    }
+  ]
+}

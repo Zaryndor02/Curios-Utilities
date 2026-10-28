@@ -1,0 +1,15 @@
+{
+  "key.categories.curioutilities": "Curio Utilities",
+  "key.curioutilities.search_natures_compass": "Chercher avec Nature's Compass",
+  "key.curioutilities.stop_natures_compass": "Arrêter la recherche de Nature's Compass",
+  "key.curioutilities.search_explorers_compass": "Chercher avec Explorer's Compass",
+  "key.curioutilities.stop_explorers_compass": "Arrêter la recherche d'Explorer's Compass",
+  "key.curioutilities.use_warp_stone": "Utiliser la Warp Stone",
+  "curios.identifier.elytra": "Élytra",
+  "curios.identifier.aether_gloves": "Gants",
+  "curios.identifier.aether_ring": "Anneaux",
+  "curios.identifier.aether_pendant": "Pendentif",
+  "curios.identifier.aether_cape": "Cape",
+  "curios.identifier.aether_shield": "Bouclier",
+  "curios.identifier.aether_accessory": "Accessoire"
+}

@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "waystones"
+    }
+  ],
+  "order": 222,
+  "size": 1,
+  "icon": "curioutilities:slot/warp_stone",
+  "validators": [
+    "curios:tag"
+  ]
+}

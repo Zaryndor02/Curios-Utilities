@@ -1,0 +1,5 @@
+Waystones Warp Stone renderer V9.5
+- Restored the visible/manual FIXED rendering path from V9.3 because the THIRD_PERSON_HAND path used in V9.4 made the Curio render disappear.
+- Reduced Warp Stone scale to 0.12 so it stays contained within the palm.
+- Moved the item toward the requested red palm zone using a vertical hand offset of +0.10.
+- Arm animation tracking remains based on ArmedModel.translateToHand().

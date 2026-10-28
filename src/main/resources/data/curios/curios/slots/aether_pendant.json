@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aether"
+    }
+  ],
+  "order": 222,
+  "size": 1,
+  "icon": "aether:slot/pendant",
+  "validators": [
+    "curios:tag"
+  ]
+}

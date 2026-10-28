@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "explorerscompass"
+    }
+  ],
+  "order": 221,
+  "size": 1,
+  "icon": "curioutilities:slot/explorer_compass",
+  "validators": [
+    "curios:tag"
+  ]
+}

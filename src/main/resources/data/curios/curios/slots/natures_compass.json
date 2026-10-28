@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "naturescompass"
+    }
+  ],
+  "order": 220,
+  "size": 1,
+  "icon": "curioutilities:slot/natures_compass",
+  "validators": [
+    "curios:tag"
+  ]
+}

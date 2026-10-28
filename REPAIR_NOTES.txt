@@ -1,0 +1,13 @@
+Curio Utilities 1.0.0 - Aether integration repair
+
+Changes made:
+- Preserved the existing Curios Aether slots and tick bridge.
+- Preserved the official Aether visual renderer adapter for gloves, pendants and Shield of Repulsion.
+- Replaced the broken Aether Accessories interface @Inject mixin. AccessoriesCapability is an interface and the previous injection approach was rejected by Mixin. The bridge now mixes into AccessoriesCapabilityImpl and overrides the inherited default lookup methods while retaining normal Accessories entries.
+- Added Accessories beta.53 as compileOnly only. It is not packaged as a runtime dependency. Aether still supplies Accessories at runtime, while the dev run can use the explicit beta.53 jar already present in libs/.
+- Verified that Aether 1.5.10 embeds Accessories beta.48 and that beta.48 and beta.53 expose the required AccessoriesCapabilityImpl API used by this bridge.
+- Verified the Aether 1.5.10 GlovesRenderer, PendantRenderer and ShieldOfRepulsionRenderer method signatures against the Curios renderer adapter.
+
+Verification:
+- Modified Aether source files compile successfully in a local Java source check using the supplied Aether, Accessories, Curios, owo and NeoForge artifacts, with only lightweight stubs for build-only annotations/events.
+- A complete Gradle build could not be executed in the isolated repair environment because the Gradle 9.2.1 distribution was not locally available and network access to services.gradle.org was unavailable.

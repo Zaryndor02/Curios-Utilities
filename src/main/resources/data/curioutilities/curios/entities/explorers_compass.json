@@ -1,0 +1,14 @@
+{
+  "entities": [
+    "minecraft:player"
+  ],
+  "slots": [
+    "explorers_compass"
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "explorerscompass"
+    }
+  ]
+}

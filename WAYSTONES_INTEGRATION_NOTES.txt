@@ -1,0 +1,18 @@
+Curio Utilities - Waystones integration notes
+
+This version keeps the V9.9 Warp Stone placement unchanged:
+Explorer's Compass -> Warp Stone on the side of the trousers.
+
+Added:
+- A configurable Curio Utilities key for using the Warp Stone from its Curios slot.
+- Default key: G.
+- The key sends a server request and asks Waystones to open its normal Warp Stone destination screen.
+- The Warp Stone is taken directly from the Curios slot, so it does not need to be in the hotbar or hand.
+
+Fixed:
+- Nature's Compass key mappings were registered twice in the previous version.
+- The old duplicate registration was removed. Nature's Compass, Explorer's Compass and Waystones now each register their key mappings exactly once.
+- The client tick/HUD dispatch was also restored so the separated Nature's/Explorer's Compass client integrations are actually driven by the main client event handler.
+
+Waystones remains optional.
+Balm is required by Waystones itself and should be present in libs/ for local development/runtime.

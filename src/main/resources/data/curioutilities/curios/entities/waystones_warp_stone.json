@@ -1,0 +1,14 @@
+{
+  "entities": [
+    "minecraft:player"
+  ],
+  "slots": [
+    "waystones_warp_stone"
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "waystones"
+    }
+  ]
+}
